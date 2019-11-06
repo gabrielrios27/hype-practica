@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="49" viewBox="0 0 176 49">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="176" height="49" fill="#FF5538" rx="6"/>
+        <text fill="#FFF" font-family="Montserrat-SemiBold, Montserrat" font-size="14" font-weight="500">
+            <tspan x="29.998" y="29">Pedir Cotización</tspan>
+        </text>
+    </g>
+</svg>

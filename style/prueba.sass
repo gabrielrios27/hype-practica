@@ -1,0 +1,70 @@
+.cont-slide
+  
+  display: grid
+  grid-template-columns: repeat(3, 607px)
+  grid-template-rows: 524px
+  grid-gap: 41.1px
+  grid-template-areas: "imagen1 imagen2 imagen3"
+  overflow-x: scroll
+  margin: 13px 0 16px 31.9px
+ 
+.Proyectos
+  width: 607px
+  height: 524px
+  object-fit: contain
+  margin: 0 0 0 0
+  padding: 0 0 0 0
+  border-radius: 10px
+
+.imagen1
+  grid-area: imagen1
+  background-image: url(../img/proyectos1.jpg)
+  &:hover
+    background-image: url(../img/proyectos1.jpg), linear-gradient(to bottom, rgba(60, 114, 159, 0.56), rgba(3, 17, 34, 0.55) 100%)
+    background-blend-mode: multiply
+
+.imagen2
+  grid-area: imagen2
+  background-image: url(../img/proyectos1.jpg)
+  &:hover
+    background-image: url(../img/proyectos1.jpg),  linear-gradient(to bottom, rgba(60, 114, 159, 0.56), rgba(3, 17, 34, 0.55) 100%)
+    background-blend-mode: multiply
+
+.imagen3
+  grid-area: imagen3
+  background-image: url(../img/proyectos1.jpg)
+  &:hover
+    background-image: url(../img/proyectos1.jpg), linear-gradient(to bottom, rgba(60, 114, 159, 0.56), rgba(3, 17, 34, 0.55) 100%)
+    background-blend-mode: multiply
+
+--------------------
+
+     <div class="slide">
+                    <div class="cont-slide">
+                        <div class="Proyectos imagen1"></div>
+                        <div class="Proyectos imagen2"></div>
+                        <div class="Proyectos imagen3"></div>
+                    </div>
+                </div>
+
+-------------------------
+
+  <form class="form" action="/my-handling-form-page" method="post">
+            <h2 class="Trabajemos-juntos">¡Trabajemos juntos!</h2>
+            <div class="campo-imput">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" />
+            </div>
+             <div class="campo-imput">
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" />
+            </div>
+            <div class="campo-text">
+                <label for="msg">Message:</label>
+                <textarea id="msg"></textarea>
+            </div>
+                
+            <div class="button">
+                <button type="submit">Send your message</button>
+            </div>
+        </form>

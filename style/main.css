@@ -1,0 +1,1351 @@
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-Light), url(../font/Montserrat-Light.woff2) format("woff2"), url(../font/Montserrat-Light.woff) format("woff"), url(../font/Montserrat-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-Regular), url(../font/Montserrat-Regular.woff2) format("woff2"), url(../font/Montserrat-Regular.woff) format("woff"), url(../font/Montserrat-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-SemiBold), url(../font/Montserrat-SemiBold.woff2) format("woff2"), url(../font/Montserrat-SemiBold.woff) format("woff"), url(../font/Montserrat-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+html {
+  background: #000;
+}
+
+.Landing {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 86.40625%;
+  height: 39px;
+  margin: auto;
+  padding-top: 27px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.Logo {
+  width: 77px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.boton-nav {
+  width: 159px;
+  height: 39px;
+  border-radius: 6px;
+  border: solid 1px #ff5538;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ff5538;
+  background: none;
+}
+.boton-nav:hover {
+  border: none;
+  border-radius: 6px;
+  background-color: #ff5538;
+  font-family: Montserrat;
+  color: #ffffff;
+}
+
+.hero {
+  width: 100%;
+  margin-bottom: 62px;
+}
+
+.presentacion {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulos {
+  position: relative;
+  margin-top: 75px;
+  margin-right: 1.40625%;
+  margin-left: 5.625%;
+  margin-bottom: 151px;
+  z-index: 30;
+  padding: 15px;
+}
+
+.banner {
+  width: 721px;
+  height: 570px;
+  object-fit: contain;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+}
+
+.banner-resp {
+  display: none;
+}
+
+.Te-ayudamos-a-potenc {
+  width: 439px;
+  height: 228px;
+  font-family: Montserrat;
+  font-size: 60px;
+  line-height: 1.17;
+  color: #1c3e66;
+  margin: 0 0 0 0;
+}
+
+.Somos-un-servicio-in {
+  width: 413px;
+  height: 86px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  color: #1c3e66;
+  margin: 0;
+}
+
+.Convertimos-marcas-e-padre {
+  margin-left: 1px;
+}
+
+.Convertimos-marcas-e {
+  width: 641px;
+  height: 90px;
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 1.25;
+  text-align: center;
+  color: #1c3e66;
+  margin: 30px auto 27px auto;
+}
+
+.ajusteconv {
+  margin-left: 23px;
+}
+
+.Somos-la-respuesta-t {
+  width: 555px;
+  height: 53px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  text-align: center;
+  color: #1c3e66;
+  display: block;
+  margin: auto;
+}
+
+.cards {
+  width: 100%;
+  height: 403px;
+  position: relative;
+}
+
+.card-img {
+  width: 100%;
+  height: 376px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.bg {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background-color: #ffffff;
+  margin-top: 27px;
+}
+
+.tarjetas {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 342px);
+  grid-template-rows: 1fr;
+  grid-gap: 40px;
+  justify-content: center;
+  position: absolute;
+}
+
+.Rectangle {
+  width: 342px;
+  height: 294px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.cont-rect {
+  margin: 30px 31px 8px 28px;
+}
+
+.design {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.digital-marketing {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.development {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.Nombre-del-servicio {
+  width: 283px;
+  height: 32px;
+  font-family: Montserrat;
+  font-size: 28px;
+  line-height: 1.14;
+  color: #1c3e66;
+  margin-top: 36px;
+  margin-bottom: 19px;
+}
+
+.Explicacin-del-serv {
+  width: 272px;
+  height: 48px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #999999;
+  margin-top: 0;
+  margin-bottom: 21px;
+}
+
+.Ver-ms {
+  display: inline-block;
+  width: 272px;
+  height: 40px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+  color: #ff5538;
+  text-decoration: none;
+}
+
+.portfolio {
+  width: 100%;
+  height: 919px;
+}
+
+.h2 {
+  font-weight: normal;
+  padding: 0;
+}
+
+.cont-conf {
+  margin-left: 1px;
+}
+
+.Confian-en-nosotros {
+  width: 641px;
+  height: 32px;
+  font-family: Montserrat;
+  font-size: 28px;
+  line-height: 1.14;
+  text-align: center;
+  color: #1c3e66;
+  margin: 0 auto 57px auto;
+  padding-top: 62px;
+}
+
+.Path {
+  width: 533px;
+  height: 709px;
+  object-fit: contain;
+  background-color: #ffffff;
+  float: right;
+}
+
+.clientes {
+  width: 100%;
+  height: 768px;
+  position: relative;
+}
+
+.tapa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 36.640625% 63.359375%;
+  grid-template-rows: 215px 553px;
+  grid-template-areas: "empresas empresas" "info-portfolio slide";
+}
+
+.cont-empresas {
+  grid-area: empresas;
+}
+
+.empresas {
+  display: flex;
+  width: 937px;
+  margin: auto;
+}
+
+.empresas-responsive {
+  display: none;
+}
+
+.Logo-dropbox {
+  width: 150px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.Logo-Intuit {
+  width: 103px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 77px;
+}
+
+.Logo-salesforce {
+  width: 132px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 77px;
+}
+
+.logo-timex {
+  width: 150px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 72px;
+}
+
+.logo-bbc22 {
+  width: 99px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 77px;
+}
+
+.info-portfolio {
+  grid-area: info-portfolio;
+}
+
+.slide {
+  grid-area: slide;
+}
+
+.Conoc-algunos-de-nu {
+  width: 375px;
+  height: 90px;
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 1.25;
+  color: #1c3e66;
+  margin: 13px 7px 30px 18.55010661%;
+}
+
+.Somos-un-servicio-in-Copy {
+  width: 382px;
+  height: 86px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  color: #1c3e66;
+  margin: 0 0 0 18.55010661%;
+}
+
+.cont-slide {
+  display: grid;
+  grid-template-columns: repeat(3, 607px);
+  grid-template-rows: 524px;
+  grid-gap: 41.1px;
+  grid-template-areas: "imagen1 imagen2 imagen3";
+  overflow-x: scroll;
+  margin: 13px 0 16px 31.9px;
+}
+
+.Proyectos {
+  position: relative;
+  width: 607px;
+  height: 524px;
+  object-fit: contain;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  background-blend-mode: multiply;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.imagen1 {
+  grid-area: imagen1;
+  background-image: url(../img/free-stationery.jpg);
+}
+.imagen1:hover {
+  background-image: url(../img/free-stationery.jpg), linear-gradient(to bottom, rgba(60, 114, 159, 0.56), rgba(3, 17, 34, 0.55) 100%);
+}
+.imagen1:hover .Nombre-del-proyecto {
+  top: 445px;
+  opacity: 1;
+}
+
+.imagen2 {
+  grid-area: imagen2;
+  background-image: url(../img/free-kraft.jpg);
+}
+.imagen2:hover {
+  background-image: url(../img/free-kraft.jpg), linear-gradient(to bottom, rgba(60, 114, 159, 0.56), rgba(3, 17, 34, 0.55) 100%);
+}
+.imagen2:hover .Nombre-del-proyecto {
+  top: 445px;
+  opacity: 1;
+}
+
+.imagen3 {
+  grid-area: imagen3;
+  background-image: url(../img/free-ipad-mini.jpg);
+}
+.imagen3:hover {
+  background-image: url(../img/free-ipad-mini.jpg), linear-gradient(to bottom, rgba(60, 114, 159, 0.56), rgba(3, 17, 34, 0.55) 100%);
+}
+.imagen3:hover .Nombre-del-proyecto {
+  top: 445px;
+  opacity: 1;
+}
+
+.Nombre-del-proyecto {
+  position: absolute;
+  top: 100%;
+  left: 49px;
+  width: 256px;
+  height: 26px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin: 0;
+  opacity: 0;
+  z-index: 40;
+  transition: 1s;
+}
+
+.testimonio {
+  width: 100%;
+  height: 382px;
+  background-color: #fff5f3;
+  margin-top: 107px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Testimonial-Avatar {
+  width: 115px;
+  height: 115px;
+  object-fit: contain;
+  margin: 30px 0 27px 0;
+}
+
+.Demostraron-una-amp {
+  width: 635px;
+  height: 104px;
+  font-family: Montserrat;
+  font-size: 28px;
+  line-height: 1.14;
+  text-align: center;
+  color: #1c3e66;
+  margin: 0;
+  padding: 0;
+}
+
+.John-Peterson {
+  width: 131px;
+  height: 24px;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #1c3e66;
+  margin: 3px 0 13px 0;
+}
+
+.logo-bbc {
+  width: 60px;
+  height: 18px;
+  object-fit: contain;
+  margin: 0;
+}
+
+.formulario {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.Group-33 {
+  width: 118px;
+  height: 253px;
+  object-fit: contain;
+  position: absolute;
+  right: 0;
+  top: -126.5px;
+}
+
+.ajust-img-form {
+  position: relative;
+  height: 504px;
+  width: 691px;
+  overflow: hidden;
+  margin-top: 164px;
+  margin-right: 4.53125%;
+}
+.ajust-img-form .img-desplazada {
+  width: 1000px;
+}
+.ajust-img-form .img-desplazada .imagen-form {
+  position: absolute;
+  height: 504px;
+  right: 0;
+}
+
+.form {
+  position: absolute;
+  width: 382px;
+  height: 495px;
+  margin: 150px 0 0 0;
+  right: 11.798%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Trabajemos-juntos {
+  width: 382px;
+  height: 65px;
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 1.25;
+  color: #1c3e66;
+  margin: 0;
+}
+
+.campo-input {
+  position: relative;
+  width: 382px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: #f9f9fb;
+  margin: 25px 0 0 0;
+}
+.campo-input:hover label {
+  height: 17px;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 1.42;
+  color: #1c3e66;
+  top: 9px;
+  font-weight: bold;
+}
+.campo-input label {
+  position: absolute;
+  background-color: #f9f9fb;
+  width: 66px;
+  height: 22px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  color: #1c3e66;
+  top: 15px;
+  left: 16px;
+  transition: 0.5s;
+}
+.campo-input input {
+  width: 350px;
+  height: 22px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  color: #1c3e66;
+  border: none;
+  background: none;
+  padding: 25px 16px 7px 16px;
+  transition: 0.5s;
+}
+.campo-input input:focus {
+  box-shadow: 0px 2px 0px 0px #1c3e66;
+  outline: none !important;
+  outline-width: 0 !important;
+}
+
+.campo-text {
+  position: relative;
+  width: 382px;
+  height: 176px;
+  border-radius: 4px;
+  background-color: #f9f9fb;
+  margin: 25px 0 0 0;
+  transition: 1s;
+}
+.campo-text:hover label {
+  height: 17px;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 1.42;
+  color: #1c3e66;
+  top: 9px;
+  font-weight: bold;
+}
+.campo-text label {
+  position: absolute;
+  background-color: #f9f9fb;
+  width: 66px;
+  height: 22px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  color: #1c3e66;
+  top: 15px;
+  left: 16px;
+  transition: 0.5s;
+}
+.campo-text textarea {
+  width: 350px;
+  height: 22px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  color: #1c3e66;
+  border: none;
+  background: none;
+  padding: 25px 16px 129px 16px;
+  transition: 0.5s;
+}
+.campo-text textarea:focus {
+  box-shadow: 0px 2px 0px 0px #1c3e66;
+  outline: none !important;
+  outline-width: 0 !important;
+}
+
+.boton {
+  width: 176px;
+  height: 49px;
+  border-radius: 6px;
+  background-color: #ff5538;
+  padding: 0;
+  border: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 18px 0 0 0;
+}
+.boton:hover {
+  box-shadow: 0 2px 4px 0 rgba(255, 85, 56, 0.36);
+}
+.boton:disabled {
+  background-color: #999999;
+  color: #2e2e2e;
+}
+
+footer {
+  width: 100%;
+  height: 64px;
+  background-color: #1c3e66;
+  margin: 84px 0 0 0;
+}
+
+.Todos-los-derechos-r {
+  width: 249px;
+  height: 17px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding: 23px 0 0 87px;
+}
+
+@media (max-width: 650px) {
+  .boton-nav {
+    width: 127.2px;
+    height: 31.2px;
+    border-radius: 4.8px;
+    border: solid 1px #ff5538;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ff5538;
+    background: none;
+  }
+}
+@media (min-width: 1530px) {
+  .titulos {
+    margin-right: 1.40625%;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 1180px) {
+  .banner {
+    width: 600px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .titulos {
+    margin-bottom: 55px;
+  }
+}
+@media (max-width: 1060px) {
+  .presentacion {
+    flex-direction: column;
+  }
+  .presentacion .banner {
+    display: none;
+  }
+  .presentacion .banner-resp {
+    display: block;
+    width: 75%;
+    height: auto;
+    margin: 150px auto 20px -2%;
+  }
+  .presentacion .titulos {
+    position: absolute;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    z-index: 30;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .presentacion .titulos .Te-ayudamos-a-potenc {
+    width: 90%;
+    height: auto;
+    font-size: 55px;
+    text-align: right;
+  }
+  .presentacion .titulos .Somos-un-servicio-in {
+    width: 73%;
+    height: auto;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.38;
+    color: #1c3e66;
+    margin: 0;
+    text-align: right;
+    font-weight: 500;
+  }
+
+  .Convertimos-marcas-e {
+    width: 80%;
+    height: auto;
+    margin: 25px auto 22px auto;
+    font-size: 30px;
+  }
+
+  .ajusteconv {
+    margin-left: 0;
+  }
+
+  .Somos-la-respuesta-t {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    font-weight: 500;
+  }
+}
+@media (max-width: 820px) {
+  .presentacion {
+    flex-direction: column;
+  }
+  .presentacion .banner {
+    display: none;
+  }
+  .presentacion .titulos {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding: 0;
+    align-items: center;
+  }
+  .presentacion .titulos .Te-ayudamos-a-potenc {
+    width: 90%;
+    font-size: 45px;
+    text-align: center;
+  }
+  .presentacion .titulos .Somos-un-servicio-in {
+    width: 80%;
+    margin: 20px 0 10px 0;
+    text-align: center;
+  }
+  .presentacion .banner-resp {
+    width: 85%;
+    margin: 15px auto;
+  }
+
+  .Convertimos-marcas-e {
+    width: 90%;
+    height: auto;
+    margin: 5px auto;
+    font-size: 30px;
+  }
+
+  .ajusteconv {
+    margin-left: 0;
+  }
+
+  .Somos-la-respuesta-t {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    font-weight: 500;
+  }
+}
+@media (max-width: 650px) {
+  .presentacion .titulos .Te-ayudamos-a-potenc {
+    font-size: 38px;
+  }
+
+  .Convertimos-marcas-e {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    font-size: 24px;
+  }
+
+  .ajusteconv {
+    margin-left: 0;
+  }
+
+  .Somos-la-respuesta-t {
+    display: none;
+  }
+}
+@media (max-width: 1180px) {
+  .cards {
+    height: 650px;
+  }
+
+  .tarjetas {
+    grid-template-columns: repeat(4, 171px);
+    grid-template-rows: 294px 294px;
+    grid-gap: 25px;
+    justify-content: center;
+    position: absolute;
+    grid-template-areas: "card-1 card-1 card-2 card-2" "no-card card-3 card-3 no-cardx";
+  }
+  .tarjetas .card-1 {
+    grid-area: card-1;
+  }
+  .tarjetas .card-2 {
+    grid-area: card-2;
+  }
+  .tarjetas .card-3 {
+    grid-area: card-3;
+  }
+
+  .card-img {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-img .color-fondo-card {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9fb;
+  }
+}
+@media (max-width: 820px) {
+  .cards {
+    height: 990px;
+  }
+
+  .tarjetas {
+    grid-template-columns: 342px;
+    grid-template-rows: 294px 294px 294px;
+    grid-gap: 25px;
+    justify-content: center;
+    position: absolute;
+    grid-template-areas: "card-1" "card-2" "card-3";
+  }
+  .tarjetas .card-1 {
+    grid-area: card-1;
+  }
+  .tarjetas .card-2 {
+    grid-area: card-2;
+  }
+  .tarjetas .card-3 {
+    grid-area: card-3;
+  }
+
+  .card-img {
+    height: 990px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-img .color-fondo-card {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9fb;
+  }
+}
+@media (max-width: 500px) {
+  .cards {
+    height: 900px;
+  }
+
+  .tarjetas {
+    grid-template-columns: 273.6px;
+    grid-template-rows: repeat(3, 264.6px);
+  }
+
+  .card-img {
+    height: 930px;
+  }
+
+  .Rectangle {
+    width: 273.6px;
+    height: 264.6px;
+    border-radius: 8px;
+  }
+
+  .cont-rect {
+    margin: 24px 24.8px 6.4px 22.4px;
+  }
+
+  .design {
+    width: 48px;
+    height: 48px;
+  }
+
+  .digital-marketing {
+    width: 48px;
+    height: 48px;
+  }
+
+  .development {
+    width: 48px;
+    height: 48px;
+  }
+
+  .Nombre-del-servicio {
+    width: 226.4px;
+    height: 25.6px;
+    font-family: Montserrat;
+    font-size: 28px;
+    line-height: 1.14;
+    color: #1c3e66;
+    font-size: 22.4px;
+    margin-top: 25px;
+    margin-bottom: 15.2px;
+  }
+
+  .Explicacin-del-serv {
+    width: 226px;
+    height: auto;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 1.38;
+    color: #999999;
+    margin-top: 0;
+    margin-bottom: 16.8px;
+  }
+
+  .Ver-ms {
+    width: 217.6px;
+    height: 32px;
+  }
+}
+@media (max-width: 1180px) {
+  .portfolio {
+    height: 989px;
+  }
+
+  .tapa {
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 200px 553px;
+    grid-template-areas: "empresas" "info-portfolio" "slide";
+  }
+
+  .Confian-en-nosotros {
+    width: 350px;
+    height: auto;
+    margin: 0 auto 40px auto;
+    padding-top: 84px;
+  }
+
+  .empresas {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .empresas .Logo-Intuit {
+    margin-left: 0;
+  }
+  .empresas .Logo-salesforce {
+    margin-left: 0;
+  }
+  .empresas .logo-timex {
+    margin-left: 0;
+  }
+  .empresas .logo-bbc22 {
+    margin-left: 0;
+  }
+
+  .Conoc-algunos-de-nu {
+    margin: 13px 7px 25px 7%;
+  }
+
+  .Somos-un-servicio-in-Copy {
+    margin: 0 0 0 7%;
+    font-weight: 500;
+  }
+
+  .cont-slide {
+    margin: 13px 0 16px 24%;
+  }
+}
+@media (max-width: 1060px) {
+  .cont-slide {
+    margin: 13px 0 16px 20.84%;
+  }
+
+  .Path {
+    width: 400px;
+  }
+}
+@media (max-width: 820px) {
+  .portfolio {
+    height: 920px;
+  }
+
+  .tapa {
+    grid-template-rows: 100px 200px 500px;
+  }
+
+  .cont-slide {
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: 431.63px;
+    margin: 13px 0 16px 18%;
+  }
+
+  .Proyectos {
+    width: 500px;
+    height: 431.63px;
+  }
+
+  .empresas-responsive {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .emp-resp-no {
+    display: none;
+  }
+
+  .Logo-dropbox {
+    width: 120px;
+    height: auto;
+  }
+
+  .Logo-Intuit {
+    width: 82.4px;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .Logo-salesforce {
+    width: 105.6px;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .logo-timex {
+    width: 120px;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .logo-bbc22 {
+    width: 79.2px;
+    height: auto;
+    margin-left: 51px;
+  }
+}
+@media (max-width: 650px) {
+  .clientes {
+    height: auto;
+  }
+
+  .portfolio {
+    height: 825px;
+  }
+
+  .Confian-en-nosotros {
+    width: 300px;
+  }
+
+  .tapa {
+    grid-template-rows: 100px 170px 360px;
+  }
+
+  .cont-slide {
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: 310.77px;
+    margin: 13px 0 16px 6%;
+  }
+
+  .Proyectos {
+    width: 360px;
+    height: 310.77px;
+  }
+
+  .Conoc-algunos-de-nu {
+    width: 90%;
+    height: auto;
+    margin: 50px auto 0px auto;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .Somos-un-servicio-in-Copy {
+    display: none;
+  }
+
+  .Path {
+    width: 380px;
+    margin-top: 10%;
+    height: auto;
+  }
+
+  .Logo-dropbox {
+    width: 96px;
+    height: auto;
+  }
+
+  .Logo-Intuit {
+    width: 65.92px;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .Logo-salesforce {
+    width: 84.48px;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .logo-timex {
+    width: 96px;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .logo-bbc22 {
+    width: 63.36px;
+    height: auto;
+    margin-left: 51px;
+  }
+}
+@media (max-width: 390px) {
+  .cont-slide {
+    margin: 13px 0 16px 2%;
+  }
+}
+@media (max-width: 365px) {
+  .cont-slide {
+    margin: 13px 0 16px 0;
+  }
+}
+@media (max-width: 330px) {
+  .tapa {
+    grid-template-rows: 100px 170px 320px;
+  }
+
+  .cont-slide {
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: 276.24px;
+    margin: 13px 0 16px 0;
+  }
+
+  .Proyectos {
+    width: 320px;
+    height: 276.24px;
+  }
+}
+@media (max-width: 820px) {
+  .Demostraron-una-amp {
+    width: 80%;
+    height: auto;
+    font-size: 26px;
+  }
+
+  .testimonio {
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .logo-bbc {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 650px) {
+  .testimonio {
+    height: auto;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 820px) {
+  .Todos-los-derechos-r {
+    padding: 23px 0 0 6%;
+  }
+}
+@media (min-width: 1530px) {
+  .form {
+    right: 18%;
+  }
+}
+@media (max-width: 1260px) {
+  .form {
+    padding: 20px;
+    right: 5%;
+    margin: 100px 0 0 0;
+    background-color: rgba(253, 253, 253, 0.7);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+@media (max-width: 1060px) {
+  .Group-33 {
+    width: 94.4px;
+    height: 202.4px;
+    top: -101.2px;
+  }
+}
+@media (max-width: 820px) {
+  .formulario {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .ajust-img-form {
+    margin-top: 100px;
+  }
+
+  .Group-33 {
+    width: 82.6px;
+    height: 177.1px;
+    top: -88.55px;
+  }
+
+  .form {
+    width: 359.08px;
+    right: auto;
+    align-self: center;
+    margin-top: 25px;
+  }
+
+  .Trabajemos-juntos {
+    width: 359.08px;
+    height: 65px;
+    font-size: 28px;
+  }
+
+  .campo-text {
+    width: 359.08px;
+    margin: 25px 0 0 0;
+  }
+  .campo-text textarea {
+    width: 329px;
+  }
+
+  .campo-input {
+    width: 359.08px;
+  }
+  .campo-input input {
+    width: 329px;
+  }
+}
+@media (max-width: 720px) {
+  .ajust-img-form {
+    height: 504px;
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .form {
+    width: 280.388px;
+  }
+
+  .Trabajemos-juntos {
+    width: 280.388px;
+    height: auto;
+    text-align: center;
+  }
+
+  .campo-text {
+    width: 280.388px;
+  }
+  .campo-text textarea {
+    width: 256.9px;
+  }
+
+  .campo-input {
+    width: 280.388px;
+  }
+  .campo-input input {
+    width: 256.9px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
