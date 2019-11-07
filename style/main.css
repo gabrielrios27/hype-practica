@@ -263,11 +263,8 @@ nav {
   padding: 0;
 }
 
-.cont-conf {
-  margin-left: 1px;
-}
-
 .Confian-en-nosotros {
+  position: relative;
   width: 641px;
   height: 32px;
   font-family: Montserrat;
@@ -277,6 +274,7 @@ nav {
   color: #1c3e66;
   margin: 0 auto 57px auto;
   padding-top: 62px;
+  left: 1px;
 }
 
 .Path {
@@ -532,12 +530,11 @@ nav {
   margin-top: 164px;
   margin-right: 4.53125%;
 }
-.ajust-img-form .img-desplazada {
-  width: 1000px;
-}
-.ajust-img-form .img-desplazada .imagen-form {
+
+.imagen-form {
   position: absolute;
   height: 504px;
+  width: auto;
   right: 0;
 }
 
