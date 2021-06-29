@@ -1,29 +1,19 @@
 .formulario
     width: 100%
-    position: relative
     display: flex
-
-.Group-33
-  width: 118px
-  height: 253px
-  object-fit: contain
-  position: absolute
-  right: 0
-  top: -126.5px
 
 .ajust-img-form
     position: relative
     height: 504px
     width: 691px
-    overflow: hidden
     margin-top: 164px
     margin-right: 4.53125%
     
 .imagen-form
-        position: absolute
-        height: 504px
-        width: auto
-        right: 0
+    position: absolute
+    height: 504px
+    width: auto
+    right: 0
 
 .form
     position: absolute
@@ -47,13 +37,8 @@
     border-radius: 4px
     background-color: $Segundario-Gris-Claro
     margin: 25px 0 0 0
-    
-    &:hover label
-        height: 17px
-        +Text-StyleDesktopLeftCaption-2()
-        top: 9px
-        font-weight: bold
-    label
+    overflow: hidden
+    .label
         position: absolute
         background-color: $Segundario-Gris-Claro
         width: 66px
@@ -62,7 +47,6 @@
         top: 15px
         left: 16px
         transition: 0.5s
-        
     input
         width: 350px
         height: 22px
@@ -75,8 +59,12 @@
             box-shadow: 0px 2px 0px 0px $Principal-azul
             outline: none !important
             outline-width: 0 !important
-            
-   
+        &:focus ~ .label, &:valid ~ .label
+            height: 17px
+            +Text-StyleDesktopLeftCaption-2()
+            top: 9px
+            font-weight: bold 
+                    
 .campo-text
     position: relative
     width: 382px
@@ -84,21 +72,7 @@
     border-radius: 4px
     background-color: $Segundario-Gris-Claro   
     margin: 25px 0 0 0
-    transition: 1s
-    &:hover label
-        height: 17px
-        +Text-StyleDesktopLeftCaption-2()
-        top: 9px
-        font-weight: bold
-    label
-        position: absolute
-        background-color: $Segundario-Gris-Claro
-        width: 66px
-        height: 22px
-        +Text-StyleDesktopLeftBody-1()
-        top: 15px
-        left: 16px
-        transition: 0.5s
+    transition: 1s                
     textarea
         width: 350px
         height: 22px
@@ -107,10 +81,25 @@
         background: none
         padding: 25px 16px 129px 16px
         transition: 0.5s
+        resize: none
         &:focus
             box-shadow: 0px 2px 0px 0px $Principal-azul
             outline: none !important
             outline-width: 0 !important
+        &:focus ~ .label, &:valid ~ .label
+            height: 17px
+            +Text-StyleDesktopLeftCaption-2()
+            top: 9px
+            font-weight: bold 
+    .label
+        position: absolute
+        background-color: $Segundario-Gris-Claro
+        width: 66px
+        height: 22px
+        +Text-StyleDesktopLeftBody-1()
+        top: 15px
+        left: 16px
+        transition: 0.5s            
 
 .boton
     width: 176px
@@ -128,7 +117,8 @@
     letter-spacing: normal
     text-align: center
     color: $Secundario-Blanco
-    margin: 18px 0 0 0 
+    margin: 18px 0 0 0
+    cursor: pointer 
     &:hover
         box-shadow: 0 2px 4px 0 rgba(255, 85, 56, 0.36)
     &:disabled

@@ -16,27 +16,14 @@
 .Path
   width: 533px
   height: 709px
-  object-fit: contain
-  background-color: $Secundario-Blanco
-  float: right
-
+  background-size: cover
+  right: 0
+  background-image: url(../img/path.svg)
+  position: absolute
 .clientes
   width: 100%
   height: 768px
   position: relative
-
-.tapa
-  position: absolute
-  top: 0
-  left: 0
-  width: 100%
-  display: grid
-  grid-template-columns: 36.640625% 63.359375%
-  grid-template-rows: 215px 553px
-  grid-template-areas: "empresas empresas" "info-portfolio slide"
-                       
-.cont-empresas
-  grid-area: empresas
 
 .empresas
   display: flex
@@ -74,22 +61,32 @@
   margin-left: 77px
   
 .info-portfolio
-  grid-area: info-portfolio
- 
+  display: inline-block
+  margin-top: 198px
+  float: left
+.galeria
+  position: absolute
+  width: 100% 
 .slide
-  grid-area: slide
+  position: absolute
+  right: 0
+  left: 469px
+  top: 0
+  height: 541px
+  float: left
+  margin-top: 185px
 
 .Conoc-algunos-de-nu
   width: 375px
   height: 90px
   +Text-StyleDesktopLeftH2()
-  margin: 13px 7px 30px 18.55010661%
+  margin: 0px 7px 30px 87px
 
 .Somos-un-servicio-in-Copy
   width: 382px
   height: 86px
   +Text-StyleDesktopLeftBody-1()
-  margin: 0 0 0 18.55010661%
+  margin: 0 0 0 87px
 
 .cont-slide
   display: grid
@@ -105,8 +102,8 @@
   width: 607px
   height: 524px
   object-fit: contain
-  margin: 0 0 0 0
-  padding: 0 0 0 0
+  margin: 0 
+  padding: 0 
   border-radius: 10px
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2)
   background-blend-mode: multiply

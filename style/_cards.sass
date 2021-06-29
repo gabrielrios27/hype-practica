@@ -1,20 +1,20 @@
 .cards
     width: 100%
     height: 403px
-    position: relative
+    
 .card-img
-  width: 100%
+  width: 100vw
   height: 376px
-  overflow: hidden
   position: absolute
+  left: 0
+  overflow: hidden
 .bg
   width: 100%
   height: auto
   object-fit: contain
   background-color: $Secundario-Blanco
   margin-top: 27px
-  
-  
+
 .tarjetas
     width: 100%
     display: grid
@@ -22,7 +22,8 @@
     grid-template-rows: 1fr
     grid-gap: 40px
     justify-content: center
-    position: absolute
+    position: relative
+    z-index: 30
 
 .Rectangle
   width: 342px
@@ -32,7 +33,7 @@
   background-color: $Secundario-Blanco
 
 .cont-rect
-    margin: 30px 31px 8px 28px
+    padding: 30px 31px 8px 28px
 
 .design
   width: 60px
